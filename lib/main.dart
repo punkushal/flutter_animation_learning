@@ -1,4 +1,4 @@
-import 'package:animation_learning/animation/basic/lesson2.dart';
+import 'package:animation_learning/animation/basic/exercises/fade_in_welcome_message.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Animation Learning',
-      home: AnimatedOpacityLesson(),
+      home: FadeInWelcomeMessage(),
     );
   }
 }
