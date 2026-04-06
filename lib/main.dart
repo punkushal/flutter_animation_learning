@@ -1,4 +1,4 @@
-import 'package:animation_learning/animation/basic/exercises/image_carousel.dart';
+import 'package:animation_learning/animation/basic/exercises/all_implicit_animation_example.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,6 +11,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Animation Learning', home: ImageCarousel());
+    return MaterialApp(
+      title: 'Animation Learning',
+      home: AllImplicitAnimationsShowcase(),
+    );
   }
 }
