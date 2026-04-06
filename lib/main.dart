@@ -1,4 +1,4 @@
-import 'package:animation_learning/animation/basic/lesson4.dart';
+import 'package:animation_learning/animation/basic/lesson5.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Animation Learning',
-      home: AnimatedTextStyleLesson(),
+      home: AnimatedCrossFadeLesson(),
     );
   }
 }
